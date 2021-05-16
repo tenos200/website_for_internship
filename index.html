@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TIM ENOS</title>
+  </head>
+  <body>
+      <link rel="stylesheet" href="css/style.css" />
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      />
+		<header>
+          <a href="/" class="home_tim">TIM ENOS</a>
+		</header>
+
+    <div class="container1">
+      <div class="header_h2">gap</div>
+      <h2 class="name_tim">TIM ENOS</h2>
+      <h3 class="subheader_h3">
+        Second year Computer Science student 
+				<br>
+	at the University of Strathclyde		
+      </h3>
+			<div class="about_me_container">
+				<button class="btn_about_me" id="about_me" onClick="scrollToTim()">About me</button>
+			</div>
+    </div>
+			<div class="next_section" id="next_section"></div>
+				<h2 class="picture_header">ABOUT ME</h2>
+    <div class="container2">
+				<div class=about_me_text>
+					<p class="paragraph_about_me">
+					I am a 24 year old Swede born and raised in Stockholm. I moved to Glasgow in 2018 to proceed with higher education. Some quick facts about me, I enjoy speedcubing and have been doing that since the age of 10, my current best time is 13.45 seconds. I enjoy spending time working on personal programming projects learning new technologies, currently working on a number recognition software with the MNIST dataset. Outside of programming and I enjoy spending time with my girlfriend or friends.
+					</p>
+				</div>
+				<div class="picture_container">
+					<img src="pictures/tim_me.PNG" alt="" class="picture_tim">
+			</div>
+		</div>
+    <div class="container3" id="container3">
+			<div class="work_experience_header_container">
+				<h2 class="work_experience_header">Work Experience</h3>
+			</div>
+		<div id="overlay"></div>
+				<div class="gondolenModal" id="gondolenModal">
+					<button class="closeBtnGondolen" data-modal-close id="closeBtnGondolen" onClick="closeModal(gondolenModal)">&times;</button>
+					<div class="gondolenModalHeader">
+						<h2 class=gondolenModalh2>Erik's Gondolen</h2>
+						</div>
+						<div class="gondolenModalContent">
+							<div class="gondolenSkills">
+								<table class="styled-table">
+									<thead>
+										<tr>
+											<th>Skills</th>
+											<th>Description</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Teamwork</td>
+											<td>Working in a bar is a team effort, it requires you to understander when your colleagues are in need of assistance and when to ask for assistance.</td>																																																		        </tr>
+										<tr class="active-row">
+											<td>Customer service</td>
+											<td>As a bartender your main focus is to make sure that the customer is satisfied, listening to the customer is essential to come to a conclusion to provide the best service to meet the customers requirements.</td>
+										</tr>
+											<td>Adaptiveness</td>
+											<td>There will occur situations where you have to be quick to adapt to the constantly changing cirucmstances in a bar.</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="gondolenPictureInside">
+								<img src="pictures/gondolen_inside.PNG" alt="">
+							</div>
+						</div>
+				</div>
+				<div class="haymarketModal" id="haymarketModal">
+					<button class="closeBtnHaymarket" data-modal-close id="closeBtnHaymarket" onClick="closeModal(haymarketModal)">&times;</button>
+					<div class="haymarketModalHeader">
+						<h2 class=haymarketModalh2>Haymarket by Scandic</h2>
+					</div>
+					<div class="haymarketModalContent">
+						<div class="haymarketSkills">
+								<table class="styled-table">
+									<thead>
+										<tr>
+											<th>Skills</th>
+											<th>Description</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Communication</td>
+											<td>Working in a hotelbar requires good communication as you are working with many different staff members in the hotel. Often there is several events going on at the same time which requires you to have a good and clear communication.</td>
+										<tr class="active-row">
+											<td>Ability to delegate</td>
+											<td>A good bartender knows how to delegate work to runners or other newer members of the bar, it is detrimental to progress. This involves understanding who's best suited to complete a particular task.</td>
+										</tr>
+											<td>Creativity</td>
+											<td>As bartending is constantly evolving and as people have many different peferences for taste, being able to use your creative side is something that is a key skill as bartending.</td>
+										</tr>
+									</tbody>
+								</table>
+						</div>
+							<div class="haymarketPictureInside">
+								<img src="pictures/haymarket_inside.PNG" alt="">
+							</div>
+					</div>
+				</div>
+				<div class="postnordModal" id="postnordModal">
+					<button class="closeBtnPostnord" data-modal-close id="closeBtnPostnord" onClick="closeModal(postnordModal)">&times;</button>
+					<div class="postnordModalHeader">
+						<h2 class=postnordModalh2>PostNord</h2>
+					</div>
+					<div class="postnordModalContent">
+						<div class="postnordSkills">
+								<table class="styled-table">
+									<thead>
+										<tr>
+											<th>Skills</th>
+											<th>Description</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Time Management</td>
+											<td>As a transport supervisor you are responsible making sure that all the transports are running on time. As transports run on a tight schedule it is necessary to be able to plan effectively.</td>
+										<tr class="active-row">
+											<td>Organisation</td>
+											<td>A key skill as a transport supervisor is understanding how to organise everything so that transports can run smoothly. This involves understanding where resources needs to be distrubuted.</td>
+										</tr>
+											<td>Problem Solving</td>
+											<td>Being able to solve problems that occur when something goes wrong with a transport was an essential skill that I picked up.</td>
+										</tr>
+									</tbody>
+								</table>
+						</div>
+							<div class="postnordPictureInside">
+								<img src="pictures/postNord_inside.PNG" alt="">
+							</div>
+					</div>
+				</div>
+			<div class="workContainer">
+				<div class="gondolen">
+					<div class="header_container_work">
+						<h2 class="gondolen_header">Gondolen</h2>
+					</div>
+						<img src="pictures/gondolen.PNG" class="gondolen_picture_outside" alt="">
+						<button class="openGondolenModal" data-modal-target="#gondolenModal" onClick="openModal(gondolenModal)">Read more</button>
+				</div>
+				<div class="haymarket">
+					<div class="header_container_work">
+						<h2 class="haymarket_header">Haymarket</h2>
+					</div>
+						<img src="pictures/haymarket.PNG" class="haymarket_picture_outside" alt="">
+						<button class="openHaymarketModal" data-modal-target="#haymarketModal" onClick="openModal(haymarketModal)">Read more</button>
+				</div>
+				<div class="postNord">
+					<div class="header_container_work">
+						<h2 class="postNord_header">PostNord</h2>
+					</div>
+						<img src="pictures/postNord.PNG" class="postNord_picture" alt="">
+						<button class="openPostModal" data-modal-target="#postnordModal" onClick="openModal(postnordModal)">Read more</button>
+				</div>
+			</div>
+		</div>
+    <div class="container4">
+			<div class="projects_header_container">
+				<h2 class="projects_header">Projects</h2>
+			</div>
+			<div class="projects_content">
+								<table class="styled-table-projects">
+									<thead>
+										<tr>
+											<th>Title</th>
+											<th>Description</th>
+											<th>Languages</th>
+											<th>GitHub</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>GCU Bake</td>
+											<td>Building a working booking Graphical user interface application that allowed customers to book baking lessons.</td>
+											<td>Java</td>
+											<td><a href="https://github.com/tenos200/GCUBake"><img src="pictures/GitHub-Mark-64px.png" class="github_icon" alt=""></a></td>
+											</tr>
+										<tr class="active-row">
+											<td>Simple shell</td>
+											<td>A simple shell for Linux, was built in 9 stages as a group work 2 year at Strathclyde.</td>
+											<td>C</td>
+											<td>Waiting for marks to be released.</td>
+										</tr>
+										<tr>
+											<td>GCU Bake Reworked</td>
+											<td>A reworked version of the GCU bake project but done in a website format. Python flask was used to act as backend, SQLite as database and Javascript for the frontent.</td>
+											<td>Python, Javascript, HTML, CSS</td>
+											<td><a href="https://github.com/tenos200/FlaskGCUBake"><img src="pictures/GitHub-Mark-64px.png" class="github_icon" alt=""></a></td>
+										</tr>
+										<tr class="active-row">
+											<td>Cryptogram</td>
+											<td>A CLI based application that was created as a group project at the my second year at university. The program allowed the user to play and saved a cryptogram, including some other functionalities.</td>
+											<td>Java</td>
+											<td>Waiting for marks to be released.</td>
+										</tr>
+										<tr>
+											<td>Soduko Solver</td>
+											<td>A simple soduko solver that works with a backtracking algorithm to solve a soduko board that is represented as a matrix.</td>
+											<td>Python</td>
+											<td><a href="https://github.com/tenos200/sudokuSolver"><img src="pictures/GitHub-Mark-64px.png" class="github_icon" alt=""></a></td>
+										</tr>
+										<tr class="active-row">
+											<td>Pygame Snake</td>
+											<td>A simple GUI implementation of snake, created with Pygame.</td>
+											<td>Python</td>
+											<td><a href="https://github.com/tenos200/pygame"><img src="pictures/GitHub-Mark-64px.png" class="github_icon" alt=""></a></td>
+										</tr>
+										<tr>
+											<td>Website Interview</td>
+											<td>A simple website created to act as a presentation in the interview with DR Reid.</td>
+											<td>Javascript, HTML, CSS</td>
+											<td><a href="https://github.com/tenos200/tenos200.github.io"><img src="pictures/GitHub-Mark-64px.png" class="github_icon" alt=""></a></td>
+										</tr>
+									</tbody>
+								</table>
+			</div>
+			<div class="technicalSkills">
+				<div class="technicalSkillsHeaderContainer">
+					<h2 class="technicalSkillsh2">Technical Skills</h2>
+					<div class="technicalSkillsContent">
+						<div class="languages_skills">
+							<h3 class="languagesSkillsh2">Languages</h3>
+							<li>Python</li>
+							<li>Java</li>
+							<li>C</li>
+							<li>Javascript</li>
+						</div>
+						
+						<div class="framework_skills">
+							<h3 class="frameworkSkillsh2">Frameworks</h3>
+							<li>Flask</li>
+							<li>Django</li>
+							<li>Spring</li>
+						</div>
+						
+						<div class="operatingsystem_skills">
+							<h3 class="osSkillsh2">Operating System</h3>
+							<li>Linux</li>
+							<li>Mac OS</li>
+							<li>Windows</li>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="javascript/main.js"></script>
+  </body>
+</html>

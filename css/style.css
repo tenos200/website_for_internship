@@ -1,0 +1,641 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  transition: background 250ms ease-in;
+}
+
+.home_tim {
+  color: #333232;
+  text-decoration: none;
+  font-family: "Gravity-Book";
+  height: 30px;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-top: 20px;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.scrolling-active {
+  transition: background 400ms ease-in;
+  box-shadow: 0px 3px 1em rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.github_icon_light {
+  height: 30px;
+}
+
+.github_icon {
+  background-image: url(pictures/github_icon.png);
+  height: 30px;
+  cursor: pointer;
+}
+
+.container1 {
+  background-image: url("https://tenos200.github.io/pictures/uniStrath.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  margin: 0 auto !important;
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 700px;
+}
+
+.header_h2 {
+  text-align: center;
+  font-size: 0px;
+}
+
+.name_tim {
+  color: #333232;
+  font-size: 40px;
+  font-family: "Gravity-Book";
+  margin-left: 140px;
+  letter-spacing: 10px;
+  margin-top: 100px;
+}
+.subheader_h3 {
+  font-family: "Gravity-Regular";
+  letter-spacing: 4px;
+  color: #333232;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.about_me_container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0px;
+}
+
+.about_me_text {
+  display: flex;
+  width: 50%;
+}
+.btn_about_me {
+  border: none;
+  background-color: transparent;
+  font-family: "Gravity-Regular";
+  letter-spacing: 5px;
+  font-size: 20px;
+  margin-left: 20px;
+  color: #333232;
+  font-weight: bold;
+}
+.btn_about_me:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.material-icons {
+  margin-right: 10px;
+}
+
+.next_section {
+  height: 50px;
+  background-color: white;
+  width: 100%;
+}
+
+.picture_tim {
+  height: 600px;
+  box-shadow: rgba(0, 0, 0, 0.2) 5px 3px 8px 0px;
+}
+.picture_header {
+  color: #333232;
+  font-family: "Gravity-Regular";
+  margin-top: 50px;
+  letter-spacing: 10px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.about_me_text_picture {
+  display: flex;
+  flex-direction: row;
+}
+.paragraph_about_me {
+  color: #333232;
+  font-size: 20px;
+  letter-spacing: 4px;
+  font-family: "Gravity-Regular";
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+/* this section is about work experience*/
+
+.container3 {
+  background-color: #333232;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 800px;
+}
+
+.work_experience_header_container {
+  margin-top: 40px;
+}
+.work_experience_header {
+  justify-content: center;
+  font-family: "Gravity-Regular";
+  letter-spacing: 10px;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 40px;
+  color: #fff;
+  margin-top: 20px;
+}
+.workContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.workContainer .gondolen {
+  flex: 0 1 400px; /*  No stretching: */
+  margin: 5px;
+  display: flex;
+  background-color: #333232;
+  margin-right: 20px;
+}
+
+.gondolen {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.haymarket {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.postNord {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.workContainer .haymarket {
+  flex: 0 1 400px; /*  No stretching: */
+  margin: 5px;
+  display: flex;
+  margin-right: 20px;
+  background-color: #333232;
+}
+
+.workContainer .postNord {
+  flex: 0 1 400px; /*  No stretching: */
+  margin: 5px;
+  display: flex;
+  margin-right: 20px;
+  background-color: #333232;
+}
+
+.header_container_work {
+  border-bottom: 1px solid black;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  background-color: #333232;
+  margin-bottom: 20px;
+}
+
+.gondolen_header {
+  font-family: "Gravity-Regular";
+  letter-spacing: 5px;
+  color: white;
+}
+.gondolen_picture_outside {
+  height: 400px;
+  width: 400px;
+  box-shadow: rgba(255, 255, 255, 0.2) 8px 3px 8px 0px;
+}
+
+.haymarket_header {
+  font-family: "Gravity-Regular";
+  letter-spacing: 5px;
+  color: white;
+}
+.haymarket_picture_outside {
+  height: 400px;
+  width: 400px;
+  box-shadow: rgba(255, 255, 255, 0.2) 8px 3px 8px 0px;
+}
+.postNord_header {
+  font-family: "Gravity-Regular";
+  letter-spacing: 5px;
+  color: white;
+}
+
+.postNord_picture {
+  height: 400px;
+  width: 400px;
+  box-shadow: rgba(255, 255, 255, 0.2) 8px 3px 8px 0px;
+}
+
+.openGondolenModal {
+  background-color: #333232;
+  cursor: pointer;
+  width: 400px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  letter-spacing: 5px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Gravity-Regular";
+}
+
+.openGondolenModal:hover {
+  background-color: #575757;
+}
+
+.openHaymarketModal {
+  background-color: #333232;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+  width: 400px;
+  border: 1px solid white;
+  height: 50px;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  letter-spacing: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Gravity-Regular";
+}
+.openHaymarketModal:hover {
+  background-color: #575757;
+}
+
+.openPostModal {
+  background-color: #333232;
+  cursor: pointer;
+  width: 400px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 2px;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-family: "Gravity-Regular";
+}
+
+.openPostModal:hover {
+  background-color: #575757;
+}
+
+/* gondolen modal section */
+.gondolenModal {
+  background-color: white;
+  display: inline-block;
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  border: 1px solid black;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 500ms ease-in-out;
+}
+
+.gondolenModal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.gondolenModalHeader {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 5px;
+  font-family: "Gravity-Regular";
+  font-size: 20px;
+  color: #333232;
+}
+.gondolenModalContent {
+  display: flex;
+}
+.gondolenPictureInside img {
+  height: 360px;
+  width: 400px;
+  margin-right: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 5px 3px 8px 0px;
+}
+.closeBtnGondolen {
+  border: none;
+  background-color: #fff;
+  font-size: 30px;
+  float: right;
+  cursor: pointer;
+}
+
+.closeBtnGondolen:hover {
+  color: grey;
+}
+/* gondolen modal section */
+
+/* Haymarket modal section */
+.haymarketModal {
+  background-color: white;
+  display: inline-block;
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  border: 1px solid black;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 500ms ease-in-out;
+}
+
+.haymarketModal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.closeBtnHaymarket {
+  border: none;
+  background-color: #fff;
+  font-size: 30px;
+  float: right;
+  cursor: pointer;
+}
+.closeBtnHaymarket:hover {
+  color: grey;
+}
+
+.haymarketModalHeader {
+  justify-content: center;
+  letter-spacing: 5px;
+  font-family: "Gravity-Regular";
+  font-size: 20px;
+}
+.haymarketModalh2 {
+  display: flex;
+  justify-content: center;
+  color: #333232;
+}
+
+.haymarketModalContent {
+  display: flex;
+}
+
+.haymarketPictureInside img {
+  height: 360px;
+  width: 400px;
+  margin-right: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 5px 3px 8px 0px;
+}
+/* Haymarket modal section */
+
+/* Postnord modal section */
+.postnordModal {
+  background-color: white;
+  display: inline-block;
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  border: 1px solid black;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 500ms ease-in-out;
+}
+
+.postnordModal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.closeBtnPostnord {
+  border: none;
+  background-color: #fff;
+  font-size: 30px;
+  float: right;
+  cursor: pointer;
+}
+
+.closeBtnPostnord:hover {
+  color: grey;
+}
+
+.postnordModalHeader {
+  justify-content: center;
+  letter-spacing: 5px;
+  font-family: "Gravity-Regular";
+  font-size: 20px;
+}
+.postnordModalContent {
+  display: flex;
+}
+
+.postnordPictureInside img {
+  height: 360px;
+  width: 400px;
+  margin-right: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 5px 3px 8px 0px;
+}
+
+.postnordModalh2 {
+  display: flex;
+  justify-content: center;
+  color: #333232;
+}
+
+/* Postnord modal section */
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#overlay.active {
+  pointer-events: all;
+  opacity: 1;
+}
+
+/* Projects section */
+
+.container4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects_header_container {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.projects_header {
+  font-size: 40px;
+  font-family: "Gravity-Regular";
+  letter-spacing: 5px;
+  color: #333232;
+}
+
+/* Technical skills section */
+
+.technicalSkills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.technicalSkillsHeaderContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Gravity-Regular";
+  margin-top: 60px;
+}
+
+.technicalSkillsh2 {
+  letter-spacing: 5px;
+  color: #333232;
+  font-size: 30px;
+}
+
+.technicalSkillsContent {
+  width: 100%;
+  font-family: "Gravity-Regular";
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.languages_skills {
+  color: #333232;
+  margin-right: 200px;
+}
+.languagesSkillsh2 {
+  letter-spacing: 3px;
+}
+
+.framework_skills {
+  color: #333232;
+  margin-right: 200px;
+}
+
+.frameworkSkillsh2 {
+  letter-spacing: 3px;
+}
+.operatingsystem_skills {
+  color: #333232;
+}
+.osSkillsh2 {
+  letter-spacing: 3px;
+}
+
+/* Technical skills section */
+
+/* this section of styling is taken from https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */
+
+.styled-table {
+  border-collapse: collapse;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.styled-table thead tr {
+  font-family: "Gravity-Regular";
+  background-color: #333232;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  font-family: "Gravity-Regular";
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+  font-family: "Gravity-Regular";
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #333232;
+}
+.styled-table-projects {
+  border-collapse: collapse;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.styled-table-projects thead tr {
+  font-family: "Gravity-Regular";
+  background-color: #333232;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table-projects th,
+.styled-table-projects td {
+  padding: 12px 15px;
+  font-family: "Gravity-Regular";
+}
+.styled-table-projects tbody tr {
+  border-bottom: 1px solid #dddddd;
+  font-family: "Gravity-Regular";
+}
+
+.styled-table-projects tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table-projects tbody tr:last-of-type {
+  border-bottom: 2px solid #1d1f1f;
+}
+/* this section of styling is taken from https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */
